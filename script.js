@@ -1,5 +1,5 @@
 // script.js
-
+// Function to add a new task
 function addTask() {
   const taskInput = document.getElementById("taskInput");
   const taskText = taskInput.value.trim();
