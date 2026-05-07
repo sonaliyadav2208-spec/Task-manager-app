@@ -23,7 +23,7 @@ function addTask() {
 
   taskInput.value = "";
 }
-
+// Function to mark task as completed
 function completeTask(button) {
   const task = button.parentElement.parentElement;
   task.classList.toggle("completed");
