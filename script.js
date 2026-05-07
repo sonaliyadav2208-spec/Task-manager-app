@@ -28,7 +28,7 @@ function completeTask(button) {
   const task = button.parentElement.parentElement;
   task.classList.toggle("completed");
 }
-
+// Function to delete a task
 function deleteTask(button) {
   const task = button.parentElement.parentElement;
   task.remove();
